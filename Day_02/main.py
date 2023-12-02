@@ -11,7 +11,7 @@ for line in open("input.txt"):
 
     if all(colors[attempt.split()[1]] >= int(attempt.split()[0]) for attempt in attempts):
         total += game_id
-#print(total)
+print(total)
 
 
 #  Part 2
@@ -32,7 +32,6 @@ for line in open("input.txt"):
     for val in colors.values():
         res *= val
     total += res
-
 
 print(total)
 
