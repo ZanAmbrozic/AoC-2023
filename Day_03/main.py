@@ -16,7 +16,9 @@ for index_line, line in enumerate(all_lines):
 
 # print(coordinates)
 
+
 #  Part 1
+
 total = 0
 for line_index, line in enumerate(all_lines):
     for index, symbol in enumerate(line):
@@ -33,6 +35,7 @@ print(total)
 
 
 #  Part 2
+
 total = 0
 for line_index, line in enumerate(all_lines):
     for index, symbol in enumerate(line):
